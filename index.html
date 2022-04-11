@@ -19,19 +19,25 @@
 
         <div class="header__container">
 
-            <a href="#" class="logo"><img src="./src/img/logo.svg" alt="Логотип"></a>
+            <div class="header__logo">
+
+                <a href="#" class="logo"><img src="./src/img/logo.svg" alt="Логотип"></a>
+
+                <img src="./src/img/logo-text.svg" alt="" class="logo-text">
+
+            </div>
+
 
             <nav class="header__menu">
                 <ol class="menu__list">
                     <li class="menu__item _main-500">
-                        <a href="#about" class="header-link about">О нас</a>
-                        <!-- <div class="line"></div> -->
+                        <a href="#about" class="header-link about _main-500">О нас</a>
                     </li>
                     <li class="menu__item _main-500">
-                        <a href="#cooperation" class="header-link cooperation">Сотрудничество</a>
+                        <a href="#cooperation" class="header-link cooperation">Авторам</a>
                     </li>
                     <li class="menu__item _main-500">
-                        <a href="#contact" class="header-link contact">Связаться</a>
+                        <a href="#contact" class="header-link contact">Подать заявку</a>
                     </li>
                 </ol>
             </nav>
@@ -92,7 +98,7 @@
 
                 <svg width="74" height="40" viewBox="0 0 74 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
-                        d="M39.3794 39.0236L73.0148 5.69015C74.3284 4.38859 74.3284 2.27792 73.0146 0.976141C71.701 -0.325417 69.5714 -0.325418 68.2577 0.976363L37.0006 31.9527L5.74194 0.976138C4.42833 -0.32542 2.29871 -0.325421 0.985092 0.97636C0.328293 1.62703 -1.08411e-07 2.48014 -1.45701e-07 3.33325C-1.82992e-07 4.18637 0.328293 5.03948 0.985321 5.69037L34.6225 39.0236C35.2533 39.6489 36.1088 40 37.0008 40C37.8929 40 38.7486 39.6489 39.3794 39.0236Z" />
+                        d="M56 25.867L111.041 3.27361L109.881 0L56 22.1215L2.11901 0L0.959534 3.27361L55.9964 25.867L56 25.8706V25.867Z" />
                 </svg>
 
 
@@ -167,12 +173,14 @@
 
                     <hr class="about__hr">
 
-                    <p class="about__text _big-main-500"> <span class="_big-main-700"> Наша задача - </span> поддержка стартапов и инвестиции в идеи по созданию импортзамещающих производств в России. Мы стремимся реализовать экономический потенциал нашей страны за счет собственных ресурсов.</p>
+                    <p class="about__text _big-main-500"> <span class="_big-main-700"> Наша задача - </span> поддержка
+                        стартапов и инвестиции в идеи по созданию импортзамещающих производств в России. Мы стремимся
+                        реализовать экономический потенциал нашей страны за счет собственных ресурсов.</p>
 
-                    <svg width="74" height="40" viewBox="0 0 74 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M39.3794 39.0236L73.0148 5.69015C74.3284 4.38859 74.3284 2.27792 73.0146 0.976141C71.701 -0.325417 69.5714 -0.325418 68.2577 0.976363L37.0006 31.9527L5.74194 0.976138C4.42833 -0.32542 2.29871 -0.325421 0.985092 0.97636C0.328293 1.62703 -1.08411e-07 2.48014 -1.45701e-07 3.33325C-1.82992e-07 4.18637 0.328293 5.03948 0.985321 5.69037L34.6225 39.0236C35.2533 39.6489 36.1088 40 37.0008 40C37.8929 40 38.7486 39.6489 39.3794 39.0236Z" />
-                    </svg>
+                        <svg width="74" height="40" viewBox="0 0 74 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M56 25.867L111.041 3.27361L109.881 0L56 22.1215L2.11901 0L0.959534 3.27361L55.9964 25.867L56 25.8706V25.867Z" />
+                        </svg>
 
                 </div>
 
@@ -184,65 +192,82 @@
 
             <div class="cooperation__container">
 
-                <h2 class="_h3 cooperation__title"> <span class="_h2"> Как получить </span> <br> поддержу своего проекта?
-                </h2>
+                <div class="cooperation__title">
+                    <h2 class="_h2">Как получить</h2>
+
+                    <h3 class="_h3">поддержу своего проекта?</h3>
+                </div>
 
                 <div class="cooperation__content">
 
                     <fieldset class="cooperation__content-item">
                         <legend class="_big-main-500">Заявка</legend>
-                        <p class="_big-main-500">Заполните форму с <br> предварительным описанием <br> вашей бизнес-идеи
+                        <p class="_big-main-500">Заполните форму с предварительным описанием вашей бизнес-идеи
                         </p>
                     </fieldset>
 
                     <fieldset class="cooperation__content-item">
                         <legend class="_big-main-500">Рассмотрение</legend>
-                        <p class="_big-main-500">Знакомимся с <br> вашей идеей</p>
+                        <p class="_big-main-500">Знакомимся с вашей идеей</p>
                     </fieldset>
 
                     <fieldset class="cooperation__content-item">
                         <legend class="_big-main-500">Приглашение</legend>
-                        <p class="_big-main-500">Назначаем встречу с <br> советом инвесторов</p>
+                        <p class="_big-main-500">Назначаем встречу с советом инвесторов</p>
                     </fieldset>
 
                     <fieldset class="cooperation__content-item">
                         <legend class="_big-main-500">Защита проекта</legend>
-                        <p class="_big-main-500">Представляете свой <br> инвест-проект</p>
+                        <p class="_big-main-500">Представляете свой инвест-проект</p>
                     </fieldset>
 
                     <fieldset class="cooperation__content-item">
                         <legend class="_big-main-500">Решение</legend>
-                        <p class="_big-main-500">Получаете по <br> итогу оценки</p>
+                        <p class="_big-main-500">Получаете по итогу оценки</p>
                     </fieldset>
 
                 </div>
 
                 <svg width="74" height="40" viewBox="0 0 74 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
-                        d="M39.3794 39.0236L73.0148 5.69015C74.3284 4.38859 74.3284 2.27792 73.0146 0.976141C71.701 -0.325417 69.5714 -0.325418 68.2577 0.976363L37.0006 31.9527L5.74194 0.976138C4.42833 -0.32542 2.29871 -0.325421 0.985092 0.97636C0.328293 1.62703 -1.08411e-07 2.48014 -1.45701e-07 3.33325C-1.82992e-07 4.18637 0.328293 5.03948 0.985321 5.69037L34.6225 39.0236C35.2533 39.6489 36.1088 40 37.0008 40C37.8929 40 38.7486 39.6489 39.3794 39.0236Z" />
+                        d="M56 25.867L111.041 3.27361L109.881 0L56 22.1215L2.11901 0L0.959534 3.27361L55.9964 25.867L56 25.8706V25.867Z" />
                 </svg>
 
             </div>
 
         </section>
 
+        <!-- LAST BLOCK -->
+
         <section class="_contact" id="contact">
 
             <div class="contact__container">
 
+                <div class="contact__wrapper"></div>
+
                 <div class="contact__content">
+
+                    <div class="content__left">
+
+                        <img src="./src/img/contact-content.jpg" alt="">
+
+                    </div>
 
                     <div class="content__right">
 
-                    </div>
+                        <h2 class="_h2">Есть идея?</h2>
 
-                    <div class="content__left">
-                        
+                        <hr class="content__hr">
+
+                        <p class="p_right-1 _main-500">Мы инвестируем в ее развитие и поможем вам реализовать свой проект!</p>
+
+                        <p class="p_right-2 _main-500">Расскажите о своём проекте, заполнив предварительную форму.</p>
+
+                        <button class="contact__button _big-main-500">Оставить заявку</button>
+
                     </div>
 
                 </div>
-            
-                <!-- <button class="contact__button _big-main-500">Отправить заявку</button> -->
 
             </div>
 
@@ -253,7 +278,18 @@
     <footer class="_footer" id="footer">
 
         <div class="footer__container">
+
+            <div class="footer__left">
+                <a class="_main-500" href="investplus23@gmail.com">investplus23@gmail.com</a>
+                <a class="tel _main-500" href="tel:7 918 234 00 00">+7 918 234 00 00</a>
+            </div>
+
             <h3 class="_main-400">© Invest Plus</h3>
+
+            <div class="footer__right">
+                <a href="#" class="_main-400">Написать</a>
+                <a href="#" class="_main-400">Позвовнить</a>
+            </div>
         </div>
 
     </footer>
